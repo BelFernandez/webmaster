@@ -1,56 +1,78 @@
-h2{
+/*
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+h2 {
     background-color: darkolivegreen;
     text-align: center;
     color: aliceblue;
 }
-h3{
+
+h3 {
     color: darkolivegreen;
 }
-h5{
+
+h5 {
     color: darkolivegreen;
 
 }
-p{
+
+p {
     text-align: center;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     color: darkolivegreen;
 }
-a:hover{
-   background-color: coral; 
-   color: aliceblue;
+
+a:hover {
+    background-color: coral;
+    color: aliceblue;
 }
-.resaltador{
+
+.resaltador {
     font-size: 22px;
     color: darkolivegreen;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'La Belle Aurore', cursive;
 }
-#naranja{
+
+#naranja {
     background-color: burlywood;
     width: 300px;
     height: 150px;
     padding-top: 10px;
     box-sizing: border-box;
+    margin-left: 150px;
     margin-bottom: 10px;
     border: 2px dotted darkolivegreen;
+    border-radius: 0px 200px 200px 0px;
+    -webkit-border-radius: 0px 200px 200px 0px;
+    -moz-border-radius: 0px 200px 200px 0px;
 
 }
-#naranja h5{
+
+#naranja h5 {
     text-align: center;
-    
+
 
 }
-#amarillo{
+
+#amarillo {
     background-color: khaki;
     width: 300px;
     height: 170px;
     padding: 10px;
     box-sizing: border-box;
     border: 2px dotted orangered;
-    
+    border-radius: 200px 0px 0px 200px;
+    -webkit-border-radius: 200px 0px 0px 200px;
+    -moz-border-radius: 200px 0px 0px 200px;
+
 }
-#amarillo h5{
+
+#amarillo h5 {
     text-align: center;
 }

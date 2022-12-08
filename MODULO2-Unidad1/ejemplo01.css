@@ -1,0 +1,29 @@
+/*
+font-family: 'Playfair Display', serif;
+*/
+h2{
+    font-family: 'Playfair Display', serif;
+    }
+.caja{
+    background: linear-gradient(278deg, rgba(62,87,47,1) 0%, rgba(224,167,42,1) 100%);
+    width: 300px;
+    height: 300px;
+    box-shadow: 25px 10px 25px darkolivegreen;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+#texto{
+    background-color: darkolivegreen;
+    column-count: 3;
+    column-gap: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+#texto p{
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+}

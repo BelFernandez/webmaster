@@ -1,0 +1,38 @@
+#contenedor{
+    border:3px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    }
+   
+
+#rojo{
+	height:200px;
+	width:200px;
+	background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#azul{
+	height:200px;
+	width:200px;
+	background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verde{
+	height:200px;
+	width:200px;
+	background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

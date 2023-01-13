@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        metros = parseInt(prompt('Ingrese la distancia a recorrer en metros:', ''));
+
+        if (metros == 0 || metros <= 1000) { // || OR
+            document.write('puede llegar caminando');
+        } else if (metros == 1001 || metros <= 10000) {
+            document.write('Se recomienda ir en bicicleta.');
+        } else if (metros == 10001 || metros <= 30000) {
+            document.write('Se sugiere viajar en colectivo.');
+        } else if (metros == 30001 || metros <= 100000) {
+            document.write('Se recomienda ir en auto.');
+        } else {
+            document.write('Se sugiere volar en avion.');
+        } 
+    </script>
+
+</body>
+
+</html>

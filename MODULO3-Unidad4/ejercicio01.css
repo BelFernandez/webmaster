@@ -1,0 +1,41 @@
+ 
+
+.rojo{
+	height:200px;
+	width:200px;
+	background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.azul{
+	height:200px;
+	width:200px;
+	background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.verde{
+	height:200px;
+	width:200px;
+	background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

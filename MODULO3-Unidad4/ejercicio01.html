@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 01</title>
+    <link rel="stylesheet" href="ejercicio01.css">
+</head>
+<body>
+    
+		<button class="rojo" onclick="cambiarFondo('red')">Cambie el fondo a rojo</button>
+		<button class="azul" onclick="cambiarFondo('blue')">Cambie el fondo a azul</button>
+		<button class="verde" onclick="cambiarFondo('green')">Cambie el fondo a verde</button>
+
+        <script>
+        
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+
+        }
+                                          
+        </script>
+</body>
+</html>

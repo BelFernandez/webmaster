@@ -2,15 +2,26 @@ var express = require('express');
 var router = express.Router();
 var novedadesModel = require('../../models/novedadesModel');
 
+
 // para listar las novedades
 router.get('/', async function (req, res, next) {
 
-  var novedades = await novedadesModel.getNovedades();
+  //var novedades = await novedadesModel.getNovedades();
+  //si no se usa un buscador, utilizar la variable de la fila 9, si se usa el buscador, utilizar la variable de la fila 12
+
+  var novedades
+  if (req.query.q === undefined) {
+    novedades = await novedadesModel.getNovedades();
+  } else {
+    novedades = await novedadesModel.buscarNovedades(req.query.q);
+  }
 
   res.render('admin/novedades', {
     layout: 'admin/layout',
     usuario: req.session.nombre,
-    novedades
+    novedades,
+    is_search: req.query.q !== undefined,
+    q: req.query.q
   });
 }); // cierra inicial
 
